@@ -1,5 +1,16 @@
 # Bias-in-machine-learning
 
+## Data in correct folder
+Move AIR data to the `data_air/` folder.
+
+Should be the files:
+
+"Fall.csv"
+"Fall_emb.csv"
+"Fall_count.csv"
+
+Actually, it is only "Fall_count.csv" that is used in our the scripts. You can choose to use one of the other AIR datasets, but then you need to manually change the code in the notebooks accordingly. 
+
 ## Save plot metrics
 
 In the folder `Plot_metrics/` create a new subfolder: `Plot_metrics/{folder_name}/`
