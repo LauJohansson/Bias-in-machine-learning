@@ -6,7 +6,7 @@ This repository contains code from the master thesis "Identifying and mitigating
 
 Read our master thesis [here](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/Evaluation_of_bias_in_ML_algorithms_v31082021.pdf) <br />
 
-In the moment, the repository is mainly focused on passing on code to the [AIR project](https://projekter.au.dk/air/). However, we hope to inspire other to investigate bias using our approach as suggested in the thesis:
+In the moment, the repository is mainly focused on passing on code to the [AIR project](https://projekter.au.dk/air/). However, we hope to inspire other to investigate bias using our approach as suggested in the thesis. Here is a wrap-up:
 
 Step 1: Choose a protected variable (we choose "gender").<br>
 Step 2: Create TPR, FPR, TNR and FNR grouped by females and males.<br>
