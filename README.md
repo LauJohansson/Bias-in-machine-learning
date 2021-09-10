@@ -46,7 +46,7 @@ For each model you create you need to save a individual file.<br>
 E.g. if your model is a XGBoost model call the file Plot_metrics/{folder_name}/"XGBoost_gender.csv"<br>
 <br>
 The file should have this specific columns:
-<br>
+
 | Gender | TPR | FPR | TNR | FNR | Model     |
 |--------|-----|-----|-----|-----|-----------|
 | Male   | 0.80 | 0.70 | 0.30 | 0.20 | "XGBoost" |
@@ -61,7 +61,7 @@ The file should have this specific columns:
 E.g. if your model is a FFNN model call the file Plot_metrics/{folder_name}/"FFNN_gender.csv"<br>
 <br>
 The file should have this specific columns:<br>
-<br>
+
 | Gender | TPR | FPR | TNR | FNR | Model     |
 |--------|-----|-----|-----|-----|-----------|
 | Male   | 0.80 | 0.70 | 0.30 | 0.20 | "FFNN" |
