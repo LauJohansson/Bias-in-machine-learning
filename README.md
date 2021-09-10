@@ -1,5 +1,23 @@
 # Bias-in-machine-learning
 
+## Introduction
+
+This repository contains code from the master thesis "Identifying and mitigating of bias in machine learning models" by Daniel Juhász Vigild and Lau Johansson.
+
+Read our master thesis [here](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/Evaluation_of_bias_in_ML_algorithms_v31082021.pdf) <br />
+
+In the moment, the repository is mainly focused on passing on code to the [AIR project](https://projekter.au.dk/air/). However, we hope to inspire other to investigate bias using our approach as suggested in the thesis:
+
+Step 1: Choose a protected variable (we choose "gender").
+Step 2: Create TPR, FPR, TNR and FNR grouped by females and males.
+Step 3: Compare the **difference** between the rates between the two genders (use e.g. a barplot with 95% confidence intervals).
+Step 4: Calculate the **relation** between the classification rates between the genders.
+Step 5: Assess the relation using e.g. using the 80% rule. 
+Step 6: Assess if any gender related **bias** can be identified.
+
+You are welcome to be inspired by the notebook [2. Plot measures.ipynb](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/2.%20%20Plot%20measures.ipynb) to perform step 3-6. 
+
+
 ## Data transformation for machine learning
 
 ### Data in correct folder
