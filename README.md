@@ -15,10 +15,11 @@ Step 4: Calculate the **relation** between the classification rates between the 
 Step 5: Assess the relation using e.g. using the 80% rule. <br>
 Step 6: Assess if any gender related **bias** can be identified.<br>
 <br>
-You are welcome to be inspired by the notebook [2. Plot measures.ipynb](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/2.%20%20Plot%20measures.ipynb) to perform step 3-6. 
+You are welcome to be inspired by the notebook [Plot measures.ipynb](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/Plot%20measures.ipynb) to perform step 3-6. 
 
 
-## Data transformation for machine learning
+## AIR specific: Data transformation for machine learning
+
 
 ### Data in correct folder
 Move AIR data to the `data_air/` folder.
@@ -31,10 +32,10 @@ Should be the files:
 
 Actually, it is only "Fall_count.csv" that is used in our the scripts. You can choose to use one of the other AIR datasets, but then you need to manually change the code in the notebooks accordingly. 
 
-Now use "1. Transform data.ipynb" to transform the data. You are now ready to use the scripts from `legacy/`
+Now use [Transform data.ipynb](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/Transform%20data.ipynb) to transform the data. You are now ready to use the scripts from `legacy/`
 
 
-## Plotting 
+## General: Plotting 
 
 ### Save plot metrics
 
@@ -79,7 +80,7 @@ The file should have this specific columns:
 Use the notebook "2. Plot measures.ipynb" to create the plots. 
 
 
-### Legacy
+## General: Legacy
 All scripts used in the master thesis is located in the `legacy/` folder.
 NB! All files are converted to .py files to ensure that no personal data was extracted from the .ipybn files
 
