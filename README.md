@@ -26,12 +26,12 @@ Move AIR data to the `data_air/` folder.
 
 Should be the files:
 
-"Fall.csv"
-"Fall_emb.csv"
-"Fall_count.csv"
+"Fall.csv"<br>
+"Fall_emb.csv"<br>
+"Fall_count.csv"<br>
 
 Actually, it is only "Fall_count.csv" that is used in our the scripts. You can choose to use one of the other AIR datasets, but then you need to manually change the code in the notebooks accordingly. 
-
+<br>
 Now use [Transform data.ipynb](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/Transform%20data.ipynb) to transform the data. You are now ready to use the scripts from `legacy/`
 
 
@@ -39,14 +39,14 @@ Now use [Transform data.ipynb](https://github.com/LauJohansson/Bias-in-machine-l
 
 ### Save plot metrics
 
-In the folder `Plot_metrics/` create a new subfolder: `Plot_metrics/{folder_name}/`
-
-For each model you create you need to save a individual file.
-
-E.g. if your model is a XGBoost model call the file Plot_metrics/{folder_name}/"XGBoost_gender.csv"
-
+In the folder `Plot_metrics/` create a new subfolder: `Plot_metrics/{folder_name}/`<br>
+<br>
+For each model you create you need to save a individual file.<br>
+<br>
+E.g. if your model is a XGBoost model call the file Plot_metrics/{folder_name}/"XGBoost_gender.csv"<br>
+<br>
 The file should have this specific columns:
-
+<br>
 | Gender | TPR | FPR | TNR | FNR | Model     |
 |--------|-----|-----|-----|-----|-----------|
 | Male   | 0.80 | 0.70 | 0.30 | 0.20 | "XGBoost" |
@@ -57,12 +57,11 @@ The file should have this specific columns:
 | Female | 0.80 | 0.70 | 0.30 | 0.20 | "XGBoost" |
 | Male   | ...  | ...  | ...  | ...  | ....   |
 | Female | ...  | ...  | ...  | ...  | ....   |
-
-
-E.g. if your model is a FFNN model call the file Plot_metrics/{folder_name}/"FFNN_gender.csv"
-
-The file should have this specific columns:
-
+<br>
+E.g. if your model is a FFNN model call the file Plot_metrics/{folder_name}/"FFNN_gender.csv"<br>
+<br>
+The file should have this specific columns:<br>
+<br>
 | Gender | TPR | FPR | TNR | FNR | Model     |
 |--------|-----|-----|-----|-----|-----------|
 | Male   | 0.80 | 0.70 | 0.30 | 0.20 | "FFNN" |
@@ -81,9 +80,9 @@ Use the notebook "2. Plot measures.ipynb" to create the plots.
 
 
 ## General: Legacy
-All scripts used in the master thesis is located in the `legacy/` folder.
-NB! All files are converted to .py files to ensure that no personal data was extracted from the .ipybn files
-
+All scripts used in the master thesis is located in the `legacy/` folder.<br>
+NB! All files are converted to .py files to ensure that no personal data was extracted from the .ipybn files<br>
+<br>
 If you know how to easily convert the files back to .ipynb, then please contact me. 
 
 
