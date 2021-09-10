@@ -1,6 +1,8 @@
 # Bias-in-machine-learning
 
-## Data in correct folder
+## Data transformation for machine learning
+
+### Data in correct folder
 Move AIR data to the `data_air/` folder.
 
 Should be the files:
@@ -11,7 +13,12 @@ Should be the files:
 
 Actually, it is only "Fall_count.csv" that is used in our the scripts. You can choose to use one of the other AIR datasets, but then you need to manually change the code in the notebooks accordingly. 
 
-## Save plot metrics
+Now use "1. Transform data.ipynb" to transform the data. You are now ready to use the scripts from `legacy/`
+
+
+## Plotting 
+
+### Save plot metrics
 
 In the folder `Plot_metrics/` create a new subfolder: `Plot_metrics/{folder_name}/`
 
@@ -50,11 +57,11 @@ The file should have this specific columns:
 
 
 
-## Create the plots
+### Create the plots
 Use the notebook "2. Plot measures.ipynb" to create the plots. 
 
 
-## Legacy
+### Legacy
 All scripts used in the master thesis is located in the `legacy/` folder.
 NB! All files are converted to .py files to ensure that no personal data was extracted from the .ipybn files
 

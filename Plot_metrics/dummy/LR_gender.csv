@@ -1,0 +1,7 @@
+,Gender,TPR,FPR,TNR,FNR,Model
+0,Male,0.8,0.7,0.3,0.2,LR
+1,Female,0.8,0.7,0.3,0.2,LR
+2,Male,0.75,0.65,0.35,0.25,LR
+3,Female,0.6,0.7,0.3,0.4,LR
+4,Male,0.9,0.9,0.1,0.1,LR
+5,Female,0.8,0.7,0.3,0.2,LR
