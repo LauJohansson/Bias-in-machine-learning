@@ -23,8 +23,14 @@ The file should have this specific columns:
 
 | Gender | TPR | FPR | TNR | FNR | Model     |
 |--------|-----|-----|-----|-----|-----------|
-| Male   | 0.8 | 0.7 | 0.3 | 0.2 | "XGBoost" |
-| Female | 0.8 | 0.7 | 0.3 | 0.2 | "XGBoost" |
+| Male   | 0.80 | 0.70 | 0.30 | 0.20 | "XGBoost" |
+| Female | 0.80 | 0.70 | 0.30 | 0.20 | "XGBoost" |
+| Male   | 0.75 | 0.65 | 0.35 | 0.25 | "XGBoost" |
+| Female | 0.60 | 0.70 | 0.30 | 0.40 | "XGBoost" |
+| Male   | 0.90 | 0.90 | 0.10 | 0.10 | "XGBoost" |
+| Female | 0.80 | 0.70 | 0.30 | 0.20 | "XGBoost" |
+| Male   | ...  | ...  | ...  | ...  | ....   |
+| Female | ...  | ...  | ...  | ...  | ....   |
 
 
 E.g. if your model is a FFNN model call the file Plot_metrics/{folder_name}/"FFNN_gender.csv"
@@ -33,9 +39,26 @@ The file should have this specific columns:
 
 | Gender | TPR | FPR | TNR | FNR | Model     |
 |--------|-----|-----|-----|-----|-----------|
-| Male   | 0.8 | 0.7 | 0.3 | 0.2 | "FFNN" |
-| Female | 0.8 | 0.7 | 0.3 | 0.2 | "FFNN" |
+| Male   | 0.80 | 0.70 | 0.30 | 0.20 | "FFNN" |
+| Female | 0.80 | 0.70 | 0.30 | 0.20 | "FFNN" |
+| Male   | 0.75 | 0.65 | 0.35 | 0.25 | "FFNN" |
+| Female | 0.60 | 0.70 | 0.30 | 0.40 | "FFNN" |
+| Male   | 0.90 | 0.90 | 0.10 | 0.10 | "FFNN" |
+| Female | 0.80 | 0.70 | 0.30 | 0.20 | "FFNN" |
+| Male   | ...  | ...  | ...  | ...  | ....   |
+| Female | ...  | ...  | ...  | ...  | ....   |
 
+
+
+## Create the plots
+Use the notebook "2. Plot measures.ipynb" to create the plots. 
+
+
+## Legacy
+All scripts used in the master thesis is located in the `legacy/` folder.
+NB! All files are converted to .py files to ensure that no personal data was extracted from the .ipybn files
+
+If you know how to easily convert the files back to .ipynb, then please contact me. 
 
 
 
