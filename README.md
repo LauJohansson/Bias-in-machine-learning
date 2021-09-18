@@ -17,6 +17,11 @@ Step 6: Assess if any gender related **bias** can be identified.<br>
 <br>
 You are welcome to be inspired by the notebook [Plot measures.ipynb](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/Plot%20measures.ipynb) to perform step 3-6. 
 
+## Packages
+
+pip install fairlearn
+pip install BlackBoxAuditing
+
 
 ## AIR specific: Data transformation for machine learning
 
@@ -33,6 +38,16 @@ Should be the files:
 Actually, it is only "Fall_count.csv" that is used in our the scripts. You can choose to use one of the other AIR datasets, but then you need to manually change the code in the notebooks accordingly. 
 <br>
 Now use [Transform data.ipynb](https://github.com/LauJohansson/Bias-in-machine-learning/blob/main/Transform%20data.ipynb) to transform the data. You are now ready to use the scripts from `legacy/`
+
+
+## AIR specific: Building XGBoost machine learning models using mitigation techniques
+`XGBoost A1.ipynb` builds a XGBoost on the AIR dataset.
+`XGBoost A2 with SHAP plots.ipynb` builds a XGBoost on the AIR dataset and create SHAP plots.
+`XGBoost B: dropping gender.ipynb` builds a XGBoost on the AIR dataset where the mitigation technique "dropping gender" is applied.
+`XGBoost C: gender swap.ipynb` builds a XGBoost on the AIR dataset where the mitigation technique "gender swap" is applied.
+`XGBoost D: learning fair representations (LFR).ipynb` builds a XGBoost on the AIR dataset where the mitigation technique "learning fair representations" is applied.
+`XGBoost E: disparate impact removal (DI removal).ipynb` builds a XGBoost on the AIR dataset where the mitigation technique "disparate impact removal" is applied.
+`XGBoost F: all mitigation techniques.ipynb` builds a XGBoost on the AIR dataset where all the mitigation techniques above can be combined. 
 
 
 ## General: Plotting 
