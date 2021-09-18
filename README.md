@@ -43,11 +43,11 @@ Now use [Transform data.ipynb](https://github.com/LauJohansson/Bias-in-machine-l
 ## AIR specific: Building XGBoost machine learning models using mitigation techniques
 `XGBoost A1.ipynb` builds a XGBoost on the AIR dataset.<br>
 `XGBoost A2 with SHAP plots.ipynb` builds a XGBoost on the AIR dataset and create SHAP plots.<br>
-`XGBoost B: dropping gender.ipynb` builds a XGBoost on the AIR dataset where the mitigation technique "dropping gender" is applied.<br>
-`XGBoost C: gender swap.ipynb` builds a XGBoost on the AIR dataset where the mitigation technique "gender swap" is applied.<br>
-`XGBoost D: learning fair representations (LFR).ipynb` builds a XGBoost on the AIR dataset where the mitigation technique "learning fair representations" is applied.<br>
-`XGBoost E: disparate impact removal (DI removal).ipynb` builds a XGBoost on the AIR dataset where the mitigation technique "disparate impact removal" is applied.<br>
-`XGBoost F: all mitigation techniques.ipynb` builds a XGBoost on the AIR dataset where all the mitigation techniques above can be combined. <br>
+`XGBoost B: dropping gender.ipynb` as A1 where the mitigation technique "dropping gender" is applied.<br>
+`XGBoost C: gender swap.ipynb` as A1 where the mitigation technique "gender swap" is applied.<br>
+`XGBoost D: learning fair representations (LFR).ipynb` as A1 where the mitigation technique "learning fair representations" is applied.<br>
+`XGBoost E: disparate impact removal (DI removal).ipynb` as A1 where the mitigation technique "disparate impact removal" is applied.<br>
+`XGBoost F: all mitigation techniques.ipynb` as A1 where all the mitigation techniques above can be combined. <br>
 
 
 ## General: Plotting 
