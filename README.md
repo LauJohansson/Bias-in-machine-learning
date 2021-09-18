@@ -98,7 +98,7 @@ Use the notebook "2. Plot measures.ipynb" to create the plots.
 All scripts used in the master thesis is located in the `legacy/` folder.<br>
 NB! All files were converted to .py files when downloading our master thesis to ensure that no personal data was extracted from the .ipynb files<br>
 <br>
-Almost all of the files has been converted back to .ipynb, but some of the files are still not converted to notebooks. If you know how to easily convert the files back to .ipynb, then please contact me. 
+Almost all of the files has been converted back to .ipynb, but some of the files are still not converted to notebooks.
 
 
 
