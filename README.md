@@ -41,6 +41,9 @@ Now use [Transform data.ipynb](https://github.com/LauJohansson/Bias-in-machine-l
 
 
 ## AIR specific: Building XGBoost machine learning models using mitigation techniques
+
+This code has used the XGBoost models from [AIR project’s GitLab](https://gitlab.au.dk/cfp/air). Thanks to the authors Christian Fischer Pedersen and Christian Marius Lillelund. <br>
+
 `XGBoost A1.ipynb` builds a XGBoost on the AIR dataset.<br>
 `XGBoost A2 with SHAP plots.ipynb` builds a XGBoost on the AIR dataset and create SHAP plots.<br>
 `XGBoost B: dropping gender.ipynb` as A1 where the mitigation technique "dropping gender" is applied.<br>
