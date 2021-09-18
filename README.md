@@ -52,6 +52,7 @@ This code has used the XGBoost models from [AIR project’s GitLab](https://gitl
 `XGBoost E: disparate impact removal (DI removal).ipynb` as A1 where the mitigation technique "disparate impact removal" is applied.<br>
 `XGBoost F: all mitigation techniques.ipynb` as A1 where all the mitigation techniques above can be combined. <br>
 
+All of the notebooks automatically create the data for plotting and identifying bias (see "[Save plot metrics"](###Save-plot-metrics) below.). 
 
 ## General: Plotting 
 
