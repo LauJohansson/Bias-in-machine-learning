@@ -57,7 +57,10 @@ All of the notebooks automatically create the data for plotting and identifying 
 
 ## General: Plotting 
 
-### Save plot metrics
+### Generate plot metrics
+
+Use the file `Get classification metrics.ipynb` for this purpose. In the following there is a short explanation of what the script does:
+
 
 In the folder `Plot_metrics/` create a new subfolder: `Plot_metrics/{folder_name}/`<br>
 <br>
