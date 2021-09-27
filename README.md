@@ -21,6 +21,7 @@ You are welcome to be inspired by the notebook [Plot measures.ipynb](https://git
 
 pip install fairlearn<br>
 pip install BlackBoxAuditing<br>
+pip install xgboost<br>
 
 
 ## AIR specific: Data transformation for machine learning
